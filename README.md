@@ -10,3 +10,10 @@ az deployment group create `
    --resource-group rg-cloud-project-denmark `
    --template-file azuredeploy.json `
    --parameters azuredeploy.parameters.json location=denmarkeast
+## Verification Proof
+
+### Successful Deployment Status
+![Successful Deployment](screenshots/deployment-success.png)
+
+### Proof of Connectivity (SSH Login)
+![Proof of Connectivity](screenshots/proof-of-connectivity.png)
